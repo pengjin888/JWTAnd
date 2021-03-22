@@ -1,0 +1,74 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--        <!DOCTYPE generatorConfiguration-->
+<!--                PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"-->
+<!--                "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">-->
+
+<!--<generatorConfiguration>-->
+<!--    <classPathEntry-->
+<!--            location="F:\MV\maven3.2\repository\mysql\mysql-connector-java\5.1.48\mysql-connector-java-5.1.48.jar"/>-->
+<!--<context id="testTable" targetRuntime="MyBatis3">-->
+<!--    <commentGenerator>-->
+<!--        &lt;!&ndash; 是否去除自动生成的注释 true：是 ： false:否 &ndash;&gt;-->
+<!--        <property name="suppressAllComments" value="true" />-->
+<!--    </commentGenerator>-->
+<!--&lt;!&ndash;    <properties>&ndash;&gt;-->
+<!--&lt;!&ndash;        &ndash;&gt;-->
+<!--&lt;!&ndash;    </properties>&ndash;&gt;-->
+<!--    &lt;!&ndash;数据库连接的信息：驱动类、连接地址、用户名、密码 &ndash;&gt;-->
+<!--&lt;!&ndash;    <jdbcConnection driverClass="com.mysql.jdbc.Driver"&ndash;&gt;-->
+<!--&lt;!&ndash;                    connectionURL="jdbc:mysql://localhost:3306/micro?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT"&ndash;&gt;-->
+<!--&lt;!&ndash;                    userId="${spring.application.datasource.username}"&ndash;&gt;-->
+<!--&lt;!&ndash;                    password="${spring.application.datasource.password}" ></jdbcConnection>&ndash;&gt;-->
+<!--    <jdbcConnection driverClass="com.mysql.jdbc.Driver"-->
+<!--                    connectionURL="jdbc:mysql://localhost:3306/niuniu?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT"-->
+<!--                    userId="root"-->
+<!--                    password="123456" ></jdbcConnection>-->
+<!--    &lt;!&ndash; <jdbcConnection driverClass="oracle.jdbc.OracleDriver"-->
+<!--        connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg"-->
+<!--        userId="yycg"-->
+<!--        password="yycg">-->
+<!--    </jdbcConnection> &ndash;&gt;-->
+
+<!--    &lt;!&ndash; 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和-->
+<!--        NUMERIC 类型解析为java.math.BigDecimal &ndash;&gt;-->
+<!--    <javaTypeResolver>-->
+<!--        <property name="forceBigDecimals" value="false" />-->
+<!--    </javaTypeResolver>-->
+
+<!--    &lt;!&ndash; targetProject:生成PO类的位置 &ndash;&gt;-->
+<!--    <javaModelGenerator targetPackage="com.po"-->
+<!--                        targetProject="src">-->
+<!--        &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;-->
+<!--        <property name="enableSubPackages" value="false" />-->
+<!--        &lt;!&ndash; 从数据库返回的值被清理前后的空格 &ndash;&gt;-->
+<!--        <property name="trimStrings" value="true" />-->
+<!--    </javaModelGenerator>-->
+<!--    &lt;!&ndash; targetProject:mapper映射文件生成的位置 &ndash;&gt;-->
+<!--    <sqlMapGenerator targetPackage="main.resources.com.mapper"-->
+<!--                     targetProject="src">-->
+<!--        &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;-->
+<!--        <property name="enableSubPackages" value="false" />-->
+<!--    </sqlMapGenerator>-->
+<!--    &lt;!&ndash; targetPackage：mapper接口生成的位置 &ndash;&gt;-->
+<!--    <javaClientGenerator type="XMLMAPPER"-->
+<!--                         targetPackage="com.mapper"-->
+<!--                         targetProject="src">-->
+<!--        &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;-->
+<!--        <property name="enableSubPackages" value="false" />-->
+<!--    </javaClientGenerator>-->
+<!--    &lt;!&ndash; 指定数据库表 &ndash;&gt;-->
+<!--    <table tableName="products"></table>-->
+<!--&lt;!&ndash;    <table tableName="tb_spu"></table>&ndash;&gt;-->
+<!--&lt;!&ndash;    <table tableName="orderdetail"></table>&ndash;&gt;-->
+<!--    &lt;!&ndash; <table schema="" tableName="sys_user"></table>-->
+<!--    <table schema="" tableName="sys_role"></table>-->
+<!--    <table schema="" tableName="sys_permission"></table>-->
+<!--    <table schema="" tableName="sys_user_role"></table>-->
+<!--    <table schema="" tableName="sys_role_permission"></table> &ndash;&gt;-->
+
+<!--    &lt;!&ndash; 有些表的字段需要指定java类型-->
+<!--     <table schema="" tableName="">-->
+<!--        <columnOverride column="" javaType="" />-->
+<!--    </table> &ndash;&gt;-->
+<!--</context>-->
+<!--</generatorConfiguration>-->

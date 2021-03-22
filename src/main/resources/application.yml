@@ -1,0 +1,19 @@
+server:
+  port: 6013
+spring:
+  application:
+    name: order-service
+app:
+  id: oredrservice1
+apollo:
+  meta: http://localhost:8080
+  cacheDir: F:/MV/file
+  cluster: cluster1
+  bootstrap: true
+logging:
+  level:
+    root: debug
+mybatis:
+  mapper-locations: classpath:mybatis/mappertest/*.xml\
+
+
